@@ -42,9 +42,9 @@ output << '@Begin'
 
 # Add participants header from source_map
 # NOTE: first name field not implemented yet since birthdate must be anonymized if included
-puts "Adding participants header..."
-header_participants = "@Participants:\t" + source_map.map{ |k, v| [v[:id], v[:role]].join(' ') }.join(', ')
-output << header_participants
+#puts "Adding participants header..." -YL
+#header_participants = "@Participants:\t" + source_map.map{ |k, v| [v[:id], v[:role]].join(' ') }.join(', ')-YL
+#output << header_participants -YL
 #I think this id code above is what gives us the error in CLAN:  TIER "@ID:", ASSOCIATED WITH A SELECTED SPEAKER, HASN'T BEEN FOUND IN THE INPUT DATA!
 
 # Iterate over transcript cells
