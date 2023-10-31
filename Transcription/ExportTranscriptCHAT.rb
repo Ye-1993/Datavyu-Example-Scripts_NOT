@@ -5,7 +5,7 @@
 # languages_column_name = 'languages'
 # participants_column_name = 'participants'
 transcript_column_name = 'Speech'
-transcript_source_code = 'source m_b'
+transcript_source_code = 'source'
 transcript_content_code = 'content'
 
 # Codes from ID column
@@ -76,7 +76,7 @@ transcript_col.cells.each do |t|
 		output << line
 	end
 
-	if speaker == 'c'
+	if speaker == 'b'
 		line = "*#{source_map[speaker][:id]}:\t#{transcript} #{time_marker}#{t.onset}_#{t.offset+1}#{time_marker}"
  		output << line
 	end
