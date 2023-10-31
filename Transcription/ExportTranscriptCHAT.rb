@@ -4,8 +4,8 @@
 ## Parameters
 # languages_column_name = 'languages'
 # participants_column_name = 'participants'
-transcript_column_name = 'transcribe'
-transcript_source_code = 'source'
+transcript_column_name = 'Speech'
+transcript_source_code = 'source m_b'
 transcript_content_code = 'content'
 
 # Codes from ID column
@@ -17,7 +17,7 @@ source_map = { # mapping from transcript_source codes to 3-letter speaker ids
 		:name => nil,
 		:role => 'Mother'
 	},
-	'c'	=>	{
+	'b'	=>	{
 		:id => 'CHI',
 		:name => nil,
 		:role => 'Child'
